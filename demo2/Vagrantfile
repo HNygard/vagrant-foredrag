@@ -1,0 +1,9 @@
+Vagrant::Config.run do |config|
+    config.vm.box = "lucid32"
+    
+    # Forward apache
+    config.vm.forward_port 80, 8080
+    
+    # Enable the Puppet provisioner
+    config.vm.provision :puppet
+end

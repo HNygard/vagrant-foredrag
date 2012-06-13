@@ -1,0 +1,4 @@
+<?php
+
+// Allow no passwords
+phpmyadmin/config.header.inc.php

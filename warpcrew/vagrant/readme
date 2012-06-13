@@ -1,0 +1,22 @@
+Prereq:
+- VirtualBox & Vagrant (sudo apt-get install vagrant)
+- Interwebz
+
+Start:
+	cd yourrepodirectory/vagrant/
+	vagrant up
+	# The first time you'll download the box
+
+Go to one of the following addresses:
+	http://localhost:10080/crewweb/
+	http://localhost:10080/was/
+	http://localhost:10080/phpmyadmin/
+
+Now you can SSH to the box:
+	vagrant ssh
+
+Destroy it by:
+	vagrant destory
+
+See also:
+	vagrant
